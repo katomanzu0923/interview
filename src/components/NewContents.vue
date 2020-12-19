@@ -68,7 +68,7 @@
 			<div class="contents" v-if="select=== 1">
 				<div class="OldTitle">
 					<p v-if="number=== 1">あなたの自己紹介を教えてください</p>
-				<p v-else-if="number === 2">あなたの自己prを教えてください</p>
+				<p v-else-if="number === 2">前社で工夫した業務を教えてください</p>
 				<p v-else-if="number === 3">その中で我が社に行かせそうなところを教えてください</p>
 				<p v-else-if="number === 4">弱みを教えてください</p>
 				<p v-else-if="number === 5">ありがとうございました。それでは何か質問はありませんか？</p>
@@ -113,9 +113,9 @@
 			<div class="contents" v-else-if="select=== 4">
 				<div class="OldTitle">
 					<p v-if="number=== 1">あなたの自己紹介を教えてください</p>
-				<p v-else-if="number === 2">学生時代に力を入れてきたこと</p>
+				<p v-else-if="number === 2">前社で力を入れてきたこと</p>
 				<p v-else-if="number === 3">なぜそのことに取り組もうと考えたのですか</p>
-				<p v-else-if="number === 4">現在、プログラミング学習 ではどのようなことを学習しているのですか</p>
+				<p v-else-if="number === 4">現在、プログラミング学習ではどのようなことを学習しているのですか</p>
 				<p v-else-if="number === 5">プログラミングを学んでみた感想</p>
 				<p v-else-if="number === 6">ありがとうございました。それでは何か質問はありませんか？</p>
 				</div>
@@ -146,11 +146,11 @@
 			</div>
 			<div class="contents" v-else-if="select===  2">
 				<div class="TechTitle">
-					<p v-if="number=== 1">MVCの仕組みについて説明してください</p>
-				<p v-else-if="number === 2">AWSとは何ですか？また、AWSの裏側ではどのような技術が動いていますか？</p>
-				<p v-else-if="number === 3">Ruby の「include」とは何ですか？</p>
-				<p v-else-if="number === 4">エラー解決はどのように行いますか？</p>
-				<p v-else-if="number === 5">ログイン、ログアウトの仕組みを説明してください</p>
+					<p v-if="number=== 1">オブジェクト指向とは何ですか？</p>
+				<p v-else-if="number === 2">SQLとは何か説明してください</p>
+				<p v-else-if="number === 3">SQLで具体的にどのようなことができますか？</p>
+				<p v-else-if="number === 4">SQLの基本構文を教えてください</p>
+				<p v-else-if="number === 5">クッキーとセッションの違いを説明してください</p>
 				<p v-else-if="number === 6">ありがとうございました。それでは何か質問はありませんか？</p>
 				</div>
 				<div class="flex">
@@ -161,11 +161,11 @@
 			</div>
 			<div class="contents" v-else-if="select=== 3">
 				<div class="TechTitle">
-					<p v-if="number=== 1">MVCの仕組みについて説明してください</p>
-					<p v-else-if="number === 2">AWSとは何ですか？また、AWSの裏側ではどのような技術が動いていますか？</p>
-					<p v-else-if="number === 3">Ruby の「include」とは何ですか？</p>
+					<p v-if="number=== 1">ブラウザにURLを打ち込んでサイトが表示されるまでの仕組みを教えてください</p>
+					<p v-else-if="number === 2">好きなHTTPステータスコードを教えてください</p>
+					<p v-else-if="number === 3">HTTPリクエストヘッダーはどのような役割を果たしていますか？</p>
 					<p v-else-if="number === 4">エラー解決はどのように行いますか？</p>
-					<p v-else-if="number === 5">ログイン、ログアウトの仕組みを説明してください</p>
+					<p v-else-if="number === 5">アジャイル開発の利点を挙げてください</p>
 					<p v-else-if="number === 6">ありがとうございました。それでは何か質問はありませんか？</p>
 				</div>
 				<div class="flex">
