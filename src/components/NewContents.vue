@@ -232,7 +232,6 @@ export default {
 				this.down = "次へ"
 			}
 		},
-		
 	}
 }
 </script>
@@ -355,7 +354,6 @@ button:active {
 	left: 0;
 	width: 100%;
 	height: 100%;
-
 }
 #button {
 	display: block;
